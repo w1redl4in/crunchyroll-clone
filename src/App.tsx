@@ -1,14 +1,17 @@
 import { ThemeProvider } from 'styled-components';
-import { Banner } from './components/Banner';
-import { Navbar } from './components/Navbar';
+import { Alert } from './components/Alert';
+import { Carousel } from './components/Carousel';
+import { DefaultLayout } from './layout/default';
 import { GlobalStyles } from './styles';
 import { Theme } from './styles/theme';
 
 export const App = () => {
   return (
     <ThemeProvider theme={Theme}>
-      <Navbar />
-      <Banner />
+      <DefaultLayout>
+        <Alert />
+        <Carousel />
+      </DefaultLayout>
       <GlobalStyles />
     </ThemeProvider>
   );
