@@ -22,7 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
-
+    background: ${({ theme }) => theme.colors.grey};
   }
 
   body, #root {
