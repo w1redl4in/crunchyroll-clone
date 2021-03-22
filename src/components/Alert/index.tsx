@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import { RiCloseFill } from 'react-icons/ri';
 
 export const Alert: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ export const Alert: React.FC = () => {
         watch as Towa, Setsuna, and Moroha have their fated duel against
         Kirinmaru!
       </span>
-      <span>X</span>
+      <RiCloseFill />
     </Container>
   );
 };
