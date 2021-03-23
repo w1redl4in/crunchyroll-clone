@@ -31,6 +31,10 @@ export const Section = styled(motion.section)`
   :not(&:last-child) {
     border-bottom: 1px solid ${({ theme }) => theme.colors.grey};
   }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Info = styled.div`

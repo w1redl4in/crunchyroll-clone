@@ -17,6 +17,14 @@ export const Container = styled(motion.div)`
 
   background: ${({ theme }) => transparentize(0.9, theme.colors.blue)};
 
+  @media (max-width: 500px) {
+    padding: 3rem;
+  }
+
+  @media (max-width: 350px) {
+    padding: 4rem;
+  }
+
   > svg {
     font-size: ${({ theme }) => theme.fontSize.large};
 
