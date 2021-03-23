@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/crunchyroll-clone/static/js/main.78a19605.chunk.js",
+    "main.js.map": "/crunchyroll-clone/static/js/main.78a19605.chunk.js.map",
+    "runtime-main.js": "/crunchyroll-clone/static/js/runtime-main.0e2966c6.js",
+    "runtime-main.js.map": "/crunchyroll-clone/static/js/runtime-main.0e2966c6.js.map",
+    "static/css/2.136a4374.chunk.css": "/crunchyroll-clone/static/css/2.136a4374.chunk.css",
+    "static/js/2.f327b600.chunk.js": "/crunchyroll-clone/static/js/2.f327b600.chunk.js",
+    "static/js/2.f327b600.chunk.js.map": "/crunchyroll-clone/static/js/2.f327b600.chunk.js.map",
+    "index.html": "/crunchyroll-clone/index.html",
+    "static/css/2.136a4374.chunk.css.map": "/crunchyroll-clone/static/css/2.136a4374.chunk.css.map",
+    "static/js/2.f327b600.chunk.js.LICENSE.txt": "/crunchyroll-clone/static/js/2.f327b600.chunk.js.LICENSE.txt",
+    "static/media/banner.65c75aa4.png": "/crunchyroll-clone/static/media/banner.65c75aa4.png",
+    "static/media/crunchyroll-logo.abe3f334.png": "/crunchyroll-clone/static/media/crunchyroll-logo.abe3f334.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e2966c6.js",
+    "static/css/2.136a4374.chunk.css",
+    "static/js/2.f327b600.chunk.js",
+    "static/js/main.78a19605.chunk.js"
+  ]
+}
