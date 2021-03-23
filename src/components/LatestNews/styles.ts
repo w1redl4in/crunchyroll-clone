@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { motion } from 'framer-motion';
+import { lighten, transparentize } from 'polished';
 
 export const Container = styled(motion.main)`
   width: 100%;
@@ -36,6 +37,14 @@ export const Info = styled.div`
 
     > h2 {
       font-size: ${theme.fontSize.large};
+
+      transition: color 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        /* color: ${transparentize(0.6, theme.colors.text)}; */
+        color: ${({ theme }) => theme.colors.primary};
+      }
     }
 
     > p {
@@ -45,6 +54,13 @@ export const Info = styled.div`
 
     p > span {
       color: ${theme.colors.primary};
+
+      transition: color 0.2s;
+
+      &:hover {
+        color: ${lighten(0.2, theme.colors.primary)};
+        cursor: pointer;
+      }
     }
 
     p + p {
