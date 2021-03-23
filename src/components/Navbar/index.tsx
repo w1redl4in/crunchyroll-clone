@@ -1,6 +1,6 @@
 import * as S from './styles';
 import CrunchyrollLogo from '../../assets/crunchyroll-logo.png';
-import { Section } from '../../constants/section-nav';
+import { SECTION } from '../../constants/section-nav';
 
 export const Navbar: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
           <span>Games</span>
         </S.RouteItems>
         <S.Sections>
-          {Object.entries(Section).map(([key, value]) => (
+          {Object.entries(SECTION).map(([key, value]) => (
             <S.SectionItem>
               {value.icon}
               <span>{key}</span>

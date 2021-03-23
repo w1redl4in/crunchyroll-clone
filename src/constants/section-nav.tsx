@@ -2,7 +2,7 @@
 import { BsFillBookmarkFill } from 'react-icons/bs';
 import { FaDiceTwo, FaUserAlt } from 'react-icons/fa';
 
-export const Section = {
+export const SECTION = {
   Queue: {
     icon: <BsFillBookmarkFill />,
   },
