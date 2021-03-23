@@ -3,7 +3,7 @@ export const CAROUSEL = {
   interval: 2500,
   naturalSlideWidth: 100,
   naturalSlideHeight: 50,
-  imageWidth: 700,
+  imageWidth: 850,
   images: [
     {
       src:
