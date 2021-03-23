@@ -27,7 +27,10 @@ export const Section = styled(motion.section)`
   }
 
   padding-bottom: 1rem;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.grey};
+
+  :not(&:last-child) {
+    border-bottom: 1px solid ${({ theme }) => theme.colors.grey};
+  }
 `;
 
 export const Info = styled.div`

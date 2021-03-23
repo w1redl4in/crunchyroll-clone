@@ -1,7 +1,7 @@
-import { LATEST_NEWS } from '../../constants/latestNews';
-import { LEFT_CONTAINER_ANIMATION, CONTENT_ANIMATION } from './animation';
-import { fromNow } from '../../util/format';
-import { Section, Container, Info, Title } from './styles';
+import { LATEST_NEWS } from '../../../constants/latestNews';
+import { LEFT_CONTAINER_ANIMATION, CONTENT_ANIMATION } from '../animation';
+import { fromNow } from '../../../util/format';
+import { Section, Container, Info, Title } from '../styles';
 
 export const LatestNews: React.FC = () => {
   return (

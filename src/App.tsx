@@ -1,7 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import { Alert } from './components/Alert';
 import { MyCarousel } from './components/Carousel';
-import { LatestNews } from './components/LatestNews';
+import { LatestNews } from './components/LeftSections/LatestNews';
+import { SiteNews } from './components/LeftSections/SiteNews';
 import { ContentLayout } from './layout/Content/content';
 import { LeftContent } from './layout/Content/leftContent';
 import { RightContainer } from './layout/Content/styles';
@@ -18,6 +19,7 @@ export const App = () => {
           <LeftContent>
             <MyCarousel />
             <LatestNews />
+            <SiteNews />
           </LeftContent>
           <RightContainer>
             <MyCarousel />
