@@ -4,4 +4,8 @@ import { motion } from 'framer-motion';
 export const Container = styled(motion.div)`
   max-width: 80rem;
   width: 100%;
+
+  @media (max-width: 1280px) {
+    display: none;
+  }
 `;

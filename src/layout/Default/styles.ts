@@ -17,4 +17,10 @@ export const Container = styled(motion.div)`
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 
   padding: 0.8rem 1.5rem;
+
+  @media (max-width: 1024px) {
+    margin: 0;
+    max-width: none;
+    width: 100%;
+  }
 `;

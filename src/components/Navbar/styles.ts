@@ -60,6 +60,10 @@ export const Sections = styled.div`
   max-width: 40rem;
   width: 100%;
 
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
   > input {
     height: 33px;
     padding: 1rem;

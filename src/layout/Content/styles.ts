@@ -5,6 +5,11 @@ export const Container = styled(motion.div)`
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
+
+  @media (max-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const LeftContainer = styled(motion.div)`

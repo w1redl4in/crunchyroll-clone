@@ -17,7 +17,6 @@ export const Container = styled.section`
 
     margin-bottom: 1rem;
 
-    /* > img {} */
     > div {
       display: flex;
       flex-direction: column;
