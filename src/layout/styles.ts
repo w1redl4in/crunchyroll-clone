@@ -9,5 +9,9 @@ export const Container = styled.div`
   flex-direction: column;
   position: relative;
 
+  background: ${({ theme }) => theme.colors.white};
+
+  padding: 0.8rem 1.5rem;
+
   margin-top: 2rem;
 `;
