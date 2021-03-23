@@ -1,5 +1,4 @@
 export const CAROUSEL = {
-  slides: 3,
   isPlaying: true,
   interval: 2500,
   naturalSlideWidth: 100,
@@ -23,6 +22,18 @@ export const CAROUSEL = {
         'https://www.animeunited.com.br/oomtumtu/2019/12/vinland-1024x576.jpg',
       name: 'Vinland',
       index: 2,
+    },
+    {
+      src:
+        'https://www.animeunited.com.br/oomtumtu/2019/06/HoshiainoSora-1024x576.jpg',
+      name: 'HoshiainoSora',
+      index: 3,
+    },
+    {
+      src:
+        'https://www.animeunited.com.br/oomtumtu/2019/12/bookworm-1024x576.jpg',
+      name: 'bookworm',
+      index: 4,
     },
   ],
 };

@@ -12,7 +12,6 @@ export const MyCarousel: React.FC = () => {
     isPlaying,
     naturalSlideHeight,
     naturalSlideWidth,
-    slides,
   } = CAROUSEL;
 
   return (
@@ -24,7 +23,7 @@ export const MyCarousel: React.FC = () => {
       <CarouselProvider
         naturalSlideWidth={naturalSlideWidth}
         naturalSlideHeight={naturalSlideHeight}
-        totalSlides={slides}
+        totalSlides={images.length}
         isPlaying={isPlaying}
         interval={interval}
       >
