@@ -3,6 +3,8 @@ import { Alert } from './components/Alert';
 import { MyCarousel } from './components/Carousel';
 import { LatestNews } from './components/LeftSections/LatestNews';
 import { SiteNews } from './components/LeftSections/SiteNews';
+import { FeaturedShows } from './components/RightSections/FeaturedShows';
+import { HeaderImage } from './components/RightSections/HeaderImage';
 import { ContentLayout } from './layout/Content/content';
 import { LeftContent } from './layout/Content/leftContent';
 import { RightContainer } from './layout/Content/styles';
@@ -22,10 +24,8 @@ export const App = () => {
             <SiteNews />
           </LeftContent>
           <RightContainer>
-            <MyCarousel />
-            <MyCarousel />
-            <MyCarousel />
-            <MyCarousel />
+            <HeaderImage />
+            <FeaturedShows />
           </RightContainer>
         </ContentLayout>
       </DefaultLayout>
