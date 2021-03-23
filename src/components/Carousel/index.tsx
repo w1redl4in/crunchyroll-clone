@@ -2,6 +2,7 @@ import { Container } from './styles';
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import { CAROUSEL } from '../../constants/carousel';
+import { CAROUSEL_ANIMATION } from './animation';
 
 export const MyCarousel: React.FC = () => {
   const {
@@ -15,7 +16,11 @@ export const MyCarousel: React.FC = () => {
   } = CAROUSEL;
 
   return (
-    <Container>
+    <Container
+      variants={CAROUSEL_ANIMATION}
+      initial="unMounted"
+      animate="mounted"
+    >
       <CarouselProvider
         naturalSlideWidth={naturalSlideWidth}
         naturalSlideHeight={naturalSlideHeight}

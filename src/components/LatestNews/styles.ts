@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
+import { motion } from 'framer-motion';
 
-export const Container = styled.main`
+export const Container = styled(motion.main)`
   width: 100%;
 
   padding: 1rem;
@@ -13,7 +14,7 @@ export const Title = styled.h1`
   border-bottom: 1px solid ${({ theme }) => theme.colors.greyer};
 `;
 
-export const Section = styled.section`
+export const Section = styled(motion.section)`
   width: 100%;
 
   display: flex;

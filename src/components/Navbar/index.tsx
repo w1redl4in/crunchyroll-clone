@@ -1,10 +1,15 @@
 import * as S from './styles';
 import CrunchyrollLogo from '../../assets/crunchyroll-logo.png';
 import { SECTION } from '../../constants/section-nav';
+import { NAVBAR_ANIMATION } from './animation';
 
 export const Navbar: React.FC = () => {
   return (
-    <S.Container>
+    <S.Container
+      variants={NAVBAR_ANIMATION}
+      initial="unMounted"
+      animate="mounted"
+    >
       <S.Navbar>
         <S.RouteItems>
           <h1>

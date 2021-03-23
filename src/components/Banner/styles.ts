@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import Banner from '../../assets/banner.png';
+import { motion } from 'framer-motion';
 
-export const Container = styled.img.attrs({
+export const Container = styled(motion.img).attrs({
   src: Banner,
 })`
   z-index: -1;
