@@ -33,4 +33,13 @@ export const LATEST_NEWS = [
       'Onsha Heisha Matsuri ("Your Company vs. Our Company Mania"), a new Youtube show produced by Sony Music Entertainment that pits members of different organizations against one another in games of friendly competition, will be debuting soon online, and to celebrate the initial episode, Baki manga author Keisuke Itagaki has been tapped to illustrate the first rivalry depicted on the show. Hit the jump to learn more.',
     author: 'Paul Chapman',
   },
+  {
+    image:
+      'https://img1.ak.crunchyroll.com/i/spire1/74e4beb8373b441cd20c3c8265f9b82d1616493662_thumb.png',
+    title:
+      "Director Kunihiko Ikuhara Throws Fire on Rumors That Evangelion's Kaworu Is Based on Him",
+    description:
+      'For years, it has been rumored that anime director Kunihiko Ikuhara, known for Revolutionary Girl Utena, Sailor Moon, and Sarazanmai, was the inspiration for Kaworu Nagisa in Evangelion. While Ikuhara has denied the claims so far, he threw oil on the fiery rumors during the Anno documentary last night. Read what he said after the jump!',
+    author: 'Daryl Harding',
+  },
 ];
