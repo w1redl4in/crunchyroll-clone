@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 100rem;
-  margin: 0 auto;
+  margin: 2rem auto;
   width: 100%;
 
   display: flex;
@@ -11,7 +11,9 @@ export const Container = styled.div`
 
   background: ${({ theme }) => theme.colors.white};
 
-  padding: 0.8rem 1.5rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 
-  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
 `;
