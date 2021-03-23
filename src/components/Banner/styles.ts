@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Banner from '../../assets/teste.png';
+import Banner from '../../assets/banner.png';
 
 export const Container = styled.img.attrs({
   src: Banner,
