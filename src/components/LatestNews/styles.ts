@@ -23,7 +23,7 @@ export const Section = styled(motion.section)`
   margin-top: 2rem;
 
   > img {
-    margin-right: 0.5rem;
+    margin-right: 0.9rem;
   }
 
   padding-bottom: 1rem;
