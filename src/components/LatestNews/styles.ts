@@ -39,7 +39,7 @@ export const Info = styled.div`
 
     > p {
       color: ${theme.colors.greyer};
-      font-size: ${theme.fontSize.medium};
+      font-size: ${theme.fontSize.small};
     }
 
     p > span {
